@@ -2,16 +2,17 @@
 <html>
 <head>
     <title>Colmar Academy</title>
+    <link rel="stylesheet" href="resources/css/reset.css" type="text/css" />
     <link rel="stylesheet" href="resources/css/styles.css" type="text/css" />
 </head>
 <body>
-    <header>
-        <div class="logo">
+    <header class="flex-container">
+        <div class="logo flex-container">
             <img src="resources/images/ic-logo.svg" alt="logo" />
-            <span>COLMAR</span><span>ACADEMY</span>
+            <span class="colmar">COLMAR</span><span class="academy">ACADEMY</span>
         </div>
         <nav>
-            <ul>
+            <ul class="flex-container">
                 <li>On Campus</li>
                 <li>Online</li>
                 <li>For companies</li>
@@ -20,40 +21,50 @@
         </nav>
     </header>
 
-    <div class="banner">
+    <div class="banner flex-container">
         <img src="resources/images/banner.jpg" alt="Study Group Banner" />
         <div class="banner-content">
             <h1>Learn something new everyday</h1>
-            <h4>lipsum...</h4>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
             <div class="banner-button">Start Here</div>
         </div>
     </div>
 
-    <div class="information">
+    <div class="information flex-container">
         <div class="main-article">
             <img src="resources/images/information-main.jpg" alt="Information" />
-            <h1>It doesn't hurt to keep practicing</h1>
-            <p>"lipsum..."</p>
-            <p>Emanuel, Sr. Strategist at Hiring.com</p>
+            <div class="main-article-content">
+                <h1>It doesn't hurt to keep practicing</h1>
+                <blockquote>" Curabitur odio libero, semper blandit lobortis nec, lacinia vitae enim. 
+                    Nullam sed sapien augue. Cras tempus enim libero, eu gravida dolor consectetur ac. 
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. "</blockquote>
+                <p>Emanuel, Sr. Strategist at Hiring.com</p>
+            </div>
         </div>
-        <div class="side-articles">
-            <div class="article">
+        <div class="side-articles flex-column">
+            <div class="article flex-container">
                 <img src="resources/images/information-orientation.jpg" alt="Orientation" />
-                <h2>Orientation date</h2>
-                <h4>Tue 10/11 &amp; Wed 10/12: 8am-3pm</h4>
-                <a href="#">Read more</a>
+                <div>
+                    <h2>Orientation date</h2>
+                    <h4>Tue 10/11 &amp; Wed 10/12: 8am-3pm</h4>
+                    <a href="#">Read more</a>
+                </div>
             </div>
-            <div class="article">
+            <div class="article flex-container">
                 <img src="resources/images/information-campus.jpg" alt="Campus" />
-                <h2>Our campus</h2>
-                <h4>Find which campus is close by you</h4>
-                <a href="#">Read more</a>
+                <div>
+                    <h2>Our campus</h2>
+                    <h4>Find which campus is close by you</h4>
+                    <a href="#">Read more</a>
+                </div>
             </div>
-            <div class="article">
+            <div class="article flex-container">
                 <img src="resources/images/information-guest-lecture.jpg" alt="Guest Lecture" />
-                <h2>Our guest lecture</h2>
-                <h4>Join a keynote with Oliver Sack about music in medical treatment</h4>
-                <a href="#">Read more</a>
+                <div>
+                    <h2>Our guest lecture</h2>
+                    <h4>Join a keynote with Oliver Sack about music in medical treatment</h4>
+                    <a href="#">Read more</a>
+                </div>
             </div>
         </div>
     </div>
