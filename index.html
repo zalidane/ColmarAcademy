@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="resources/css/reset.css" type="text/css" />
@@ -22,7 +22,9 @@
     </header>
 
     <div class="banner flex-container">
-        <img src="resources/images/banner.jpg" alt="Study Group Banner" />
+        <div class="banner-image">
+            <img src="resources/images/banner.jpg" alt="Study Group Banner" />
+        </div>
         <div class="banner-content">
             <h1>Learn something new everyday</h1>
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
@@ -33,37 +35,56 @@
     <div class="information flex-container">
         <div class="main-article">
             <img src="resources/images/information-main.jpg" alt="Information" />
-            <div class="main-article-content">
-                <h1>It doesn't hurt to keep practicing</h1>
-                <blockquote>" Curabitur odio libero, semper blandit lobortis nec, lacinia vitae enim. 
-                    Nullam sed sapien augue. Cras tempus enim libero, eu gravida dolor consectetur ac. 
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. "</blockquote>
-                <p>Emanuel, Sr. Strategist at Hiring.com</p>
-            </div>
+            <h1>It doesn't hurt to keep practicing</h1>
+            <blockquote>
+                "Curabitur odio libero, semper blandit lobortis nec, lacinia vitae enim.
+                Nullam sed sapien augue. Cras tempus enim libero, eu gravida dolor consectetur ac.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+            </blockquote>
+            <p>Emanuel, Sr. Strategist at Hiring.com</p>
+            
         </div>
-        <div class="side-articles flex-column">
+        <div class="side-articles">
             <div class="article flex-container">
-                <img src="resources/images/information-orientation.jpg" alt="Orientation" />
+                <div class="image-container">
+                    <img src="resources/images/information-orientation.jpg" alt="Orientation" />
+                </div>
                 <div>
-                    <h2>Orientation date</h2>
-                    <h4>Tue 10/11 &amp; Wed 10/12: 8am-3pm</h4>
-                    <a href="#">Read more</a>
+                    <div class="article-content">
+                        <h2>Orientation date</h2>
+                        <h4>Tue 10/11 &amp; Wed 10/12: 8am-3pm</h4>
+                    </div>
+                    <div class="read-more">
+                        <a href="#">Read more</a>
+                    </div>
                 </div>
             </div>
             <div class="article flex-container">
-                <img src="resources/images/information-campus.jpg" alt="Campus" />
+                <div class="image-container">
+                    <img src="resources/images/information-campus.jpg" alt="Campus" />
+                </div>
                 <div>
-                    <h2>Our campus</h2>
-                    <h4>Find which campus is close by you</h4>
-                    <a href="#">Read more</a>
+                    <div class="article-content">
+                        <h2>Our campus</h2>
+                        <h4>Find which campus is close by you</h4>
+                    </div>
+                    <div class="read-more">
+                        <a href="#">Read more</a>
+                    </div>
                 </div>
             </div>
             <div class="article flex-container">
-                <img src="resources/images/information-guest-lecture.jpg" alt="Guest Lecture" />
+                <div class="image-container">
+                    <img src="resources/images/information-guest-lecture.jpg" alt="Guest Lecture" />
+                </div>
                 <div>
-                    <h2>Our guest lecture</h2>
-                    <h4>Join a keynote with Oliver Sack about music in medical treatment</h4>
-                    <a href="#">Read more</a>
+                    <div class="article-content">
+                        <h2>Our guest lecture</h2>
+                        <h4>Join a keynote with Oliver Sack about music in medical treatment</h4>
+                    </div>
+                    <div class="read-more">
+                        <a href="#">Read more</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -71,36 +92,64 @@
 
     <div class="learning">
         <h1>Start Learning</h1>
-        <div class="courses">
+        <div class="courses flex-container">
             <div class="course">
-                <img src="resources/images/course-software.jpg" alt="Software Engineering" />
-                <p>COURSES</p>
-                <p>Web Development, Mobile Development, iOT, APIs</p>
+                <div class="course-image-container">
+                    <img src="resources/images/course-software.jpg" alt="Software Engineering" />
+                </div>
+                <div class="course-content">
+                    <h1>Software Engineering</h1>
+                    <p>COURSES</p>
+                    <p>Web Development, Mobile Development, iOT, APIs</p>
+                </div>
             </div>
             <div class="course">
-                <img src="resources/images/course-computer-art.jpg" alt="Computer Art" />
-                <p>COURSES</p>
-                <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+                <div class="course-image-container">
+                    <img src="resources/images/course-computer-art.jpg" alt="Computer Art" />
+                </div>
+                <div class="course-content">
+                    <h1>Computer Art</h1>
+                    <p>COURSES</p>
+                    <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+                </div>
             </div>
             <div class="course">
-                <img src="resources/images/course-design.jpg" alt="Design" />
-                <p>COURSES</p>
-                <p>User Experience Design, User Research, Visual Design</p>
+                <div class="course-image-container">
+                    <img src="resources/images/course-design.jpg" alt="Design" />
+                </div>
+                <div class="course-content">
+                    <h1>Design</h1>
+                    <p>COURSES</p>
+                    <p>User Experience Design, User Research, Visual Design</p>
+                </div>
             </div>
             <div class="course">
-                <img src="resources/images/course-data.jpg" alt="Data" />
+                <div class="course-image-container">
+                    <img src="resources/images/course-data.jpg" alt="Data" />
+                </div>
+                <h1>Data</h1>
                 <p>COURSES</p>
                 <p>Data Science, Big Data, SQL, Data Visualization</p>
             </div>
             <div class="course">
-                <img src="resources/images/course-business.jpg" alt="Business" />
-                <p>COURSES</p>
-                <p>Product Development, Business Development, Startup</p>
+                <div class="course-image-container">
+                    <img src="resources/images/course-business.jpg" alt="Business" />
+                </div>
+                <div class="course-content">
+                    <h1>Business</h1>
+                    <p>COURSES</p>
+                    <p>Product Development, Business Development, Startup</p>
+                </div>
             </div>
             <div class="course">
-                <img src="resources/images/course-marketing.jpg" alt="Marketing" />
-                <p>COURSES</p>
-                <p>Analytics, Content Marketing, Mobile Marketing</p>
+                <div class="course-image-container">
+                    <img src="resources/images/course-marketing.jpg" alt="Marketing" />
+                </div>
+                <div class="course-content">
+                    <h1>Marketing</h1>
+                    <p>COURSES</p>
+                    <p>Analytics, Content Marketing, Mobile Marketing</p>
+                </div>
             </div>
         </div>
     </div>
